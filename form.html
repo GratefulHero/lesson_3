@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <label for="name">Имя:</label> <br>
+        <input type="text" placeholder="Иван" name="name" id="name" required> <br><br>
+
+        <label for="email">Электронная почта:</label> <br>
+        <input type="email" placeholder="email@mail.ru" name="email" id="email" required> <br><br>
+
+        <label for="password">Пароль:</label> <br>
+        <input type="password" placeholder="Пароль" name="password" id="password" required> <br><br>
+
+        <label for="date">Дата рождения:</label> <br>
+        <input type="date" placeholder="01.01.1971" name="date" id="date" required> <br><br>
+
+        <label for="city">Выберите город рождения</label>
+        <select name="city" required>
+            <option value="msk">Москва</option>
+            <option value="nsk">Новосибирск</option>
+            <option value="tsk">Томск</option>
+            <option value="another">Другой</option>
+        </select> <br><br>
+
+        
+
+      <!--<input type="radio" value="man" name="gender"> Мужской
+        <input type="radio" value="woman" name="gender"> Женский
+        <label id="rez">Оставьте отзыв:</label> <br>
+        <textarea rows="8" cols="45" placeholder="Все отлично!"> </textarea><br><br>
+        <input type="checkbox"> Даю согласие <br><br>-->  
+
+                
+        <table border="2" bgcolor="cyan" width="300px" cellpadding="10px">
+            <tr>
+                <th>№</th>
+                <th>Имя</th>
+                <th>Телефон</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Иван</td>
+                <td>+7(123)456-78-99</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Людмила</td>
+                <td>+7(987)654-32-11</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Дмитрий</td>
+                <td>+7(777)777-77-77</td>
+            </tr>
+        </table>
+
+        <button type="submit" name=button id="button">Отправить данные</button>
+    </form>
+
+    
+</body>
+</html>
